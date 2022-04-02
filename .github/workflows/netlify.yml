@@ -16,12 +16,12 @@ jobs:
         with:
           publish-dir: './build'
           production-branch: main
-          github-token: ${{ secrets.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  }}
+          github-token: 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
           deploy-message: 'Deploy from GitHub Actions'
           enable-pull-request-comment: false
           enable-commit-comment: true
           overwrites-pull-request-comment: true
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.JjfsrBxJe3ZV_bV5KEfQaBLa11-OTxZuXajorXPp3j0 }}
+          NETLIFY_AUTH_TOKEN: JjfsrBxJe3ZV_bV5KEfQaBLa11-OTxZuXajorXPp3j0
           NETLIFY_SITE_ID: 4cd39317-f8af-4657-92c3-fec7f3f0e6c9
         timeout-minutes: 1
