@@ -7,7 +7,7 @@ function App() {
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 
-				<code>GitHub Actions with Netlify</code>
+				<code>GitHub Actions with Netlify and React</code>
 
 				<a
 					className="App-link"
